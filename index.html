@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fitness</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+
+<!-- <link rel="stylesheet" href="r.css"> -->
+<style>
+    body{
+        margin: 0px;
+        font-family: "Ubuntu", sans-serif;
+
+        padding: 0px;
+        background: url('abs.jpg');
+    color: white;
+    }
+    .left{
+        display: inline-block;
+        /* border: 2px solid red; */
+         position: absolute;
+    
+        left: 55px;
+        top: 20px;
+    }
+    .left div{
+        line-height: 19px;
+        font-size: 20px;
+        text-align:center ;
+    }
+    .left img{
+        width: 50px;
+    }
+    .mid{
+        display:block;
+        width: 40%;
+        margin: 20px auto;
+        /* border: 2px solid green; */
+    }
+
+    .right{
+        position: absolute;
+        right: 34px;
+        top: 20px;
+        display: inline-block;
+        /* border: 2px solid yellow; */
+    }
+    .navbar{
+        display: inline-block;
+    }
+    .navbar li{
+        display:  inline-block;
+        font-size:20px ;
+    }
+    .navbar li a{
+        color: white;
+        text-decoration: none;
+        padding: 34px 24px;
+        
+    }
+    .navbar li a:hover, .navbar li a:active{
+
+        text-decoration: underline;
+    color: gray;
+        
+    }
+    .btn {
+        margin: 0px 9px;
+        background-color: black;
+        color: white;
+        padding: 4px 14px;
+        border: 2px solid gray;
+        border-radius: 10px;
+        font-size: 15px;
+        cursor: pointer;
+        font-family: "Ubuntu", sans-serif;
+
+    }
+    .btn:hover{
+        background-color: rgb(101, 97, 97);
+    }
+    .container{
+        border: 2px solid white; 
+        margin: 100px 80px;
+        padding: 75px;
+        width: 33%;
+        border-radius: 23px;
+    }
+    .form-group input{
+        text-align: center;
+        display: block;
+        width: 450px;
+        padding: 3px;
+        border: 2px solid black;
+        margin: 11px auto;
+        font-size: 18px;
+        border-radius: 8px;
+        font-family: "Ubuntu", sans-serif;
+
+    }
+    .container h1{
+        text-align: center;
+    }
+.container button{
+display: block;
+width: 83%;
+margin:  auto;
+
+
+}
+</style>
+</head>
+<body>
+    <header class="header">
+        <div class="left">
+<!-- left for logo -->
+<img src="logo.png" alt="">
+<div>VR fitness</div>
+</div>
+    
+
+<div class="mid">
+<!-- mid for navigation -->
+<ul class="navbar">
+    <li><a href="#" class="active">home</a></li>
+    <li><a href="#">about us</a></li>
+    <li><a href="#">fitness calculator</a></li>
+    <li><a href="#">contact us </a></li>
+</ul>
+
+</div>
+
+<div class="right">
+<!-- rifht for button -->
+<button class="btn">call us</button>
+<button class="btn">email</button>
+</div>
+    </header>
+    <div class="container">
+    <h1>join the best gym of gumma</h1>
+    <form action="noaction.php">
+    <div class="form-group">
+        <input type="text" name="" placeholder="enter ur name">
+    </div>
+    <div class="form-group">
+        <input type="text" name="" placeholder="enter ur age">
+    </div><div class="form-group">
+        <input type="text" name="" placeholder="enter ur gender">
+    </div><div class="form-group">
+        <input type="text" name="" placeholder="enter ur locality">
+    </div>
+    <button class="btn">submit</button>
+    </form>
+</div>
+
+</body>
+</html>
